@@ -11,7 +11,7 @@
 3. Write [`Tests`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Tests.Nunit/Tests) to implement classes (using TDD) and to keep the functinality in the correct state.
 4. Refactore to make the Code Clear.
 5. Improve the solution (say, add new tag support or implement [`LexicalAnalyserParser`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Tools/Parsers/Concrete/LexicalAnalyzer/LexParser.cs)).
-<img src="http://content.screencast.com/users/Romakosh/folders/Jing/media/22ad87ed-814a-49cf-b888-1345134552e7/2015-07-20_0532.png">
+<img src="http://content.screencast.com/users/Romakosh/folders/Jing/media/8a992992-1e36-4711-85e2-722df90f3803/2015-07-20_1933.png">
 
 ### How to Use
 - To build the [`Model`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Elements) we have to obtain some [`Tools`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Tools) using the [`Factory`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Factories):
@@ -47,7 +47,7 @@
 ### How to Explore
 - We can browse the Documented Tests [`\Tests\Main_Tests.cs`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Tests.Nunit/Tests/Main_Tests.cs) (and some other tests) for the exploitation details.
 - Note that the [`Core Code`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core) has no any comments because, as we hope, this code is plain and clear.
-- Each test writes to Console, so we can view its outputs: <img width=700 src="http://content.screencast.com/users/Romakosh/folders/Jing/media/942269e2-cb95-4c1f-be6c-6e35aec4c020/2015-07-20_0155.png"/>
+- Each test writes to Console, so we can view its outputs: <img src="http://content.screencast.com/users/Romakosh/folders/Jing/media/006a0f90-7153-421d-995f-5cb69f17b961/2015-07-20_1938.png"/>
 
 ### How to Develop
 - To implement another html Parser:
