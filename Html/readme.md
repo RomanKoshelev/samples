@@ -52,7 +52,7 @@
 ### How to Develop
 - To implement another html Parser:
   - add new parser-class in: [`\Tools\Parsers\Concrete\`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Tools/Parsers/Concrete);
-  - implement the [`IParser`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Types/IParser.cs) and [`IParserNode`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Interfaces/IParserNode.cs) interfaces for the `MyParser` class (and write at least [`all code`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Tools/Parsers/Concrete/HtmlAgilityPack/HapParserNode.cs) we need to it can work properly :)
+  - implement the [`IParser`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Types/IParser.cs) and [`IParserNode`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Types/IParserNode.cs) interfaces for the `MyParser` class (and write at least [`all code`](https://github.com/RomanKoshelev/samples/blob/master/Html/src/Samples.Html.Core/Tools/Parsers/Concrete/HtmlAgilityPack/HapParserNode.cs) we need to it can work properly :)
   - add new factory to encapsulate the parser creation: `\Factories\MyFactory.cs` (we have to override one method);
 - To support new Tag: 
   - add new element-class in [`\Elements\`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Elements)

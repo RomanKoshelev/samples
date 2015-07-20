@@ -47,8 +47,8 @@
   <ItemGroup>
     <Compile Include="Common\Constants.cs" />
     <Compile Include="Types\ITextualElement.cs" />
-    <Compile Include="Factoriers\HapFactory.cs" />
-    <Compile Include="Factoriers\LexFactory.cs" />
+    <Compile Include="Factories\HapFactory.cs" />
+    <Compile Include="Factories\LexFactory.cs" />
     <Compile Include="Tools\Builders\ModelBuilder.pvt.Elements.cs" />
     <Compile Include="Tools\Parsers\Concrete\LexicalAnalyzer\LexParser.cs" />
     <Compile Include="Types\IParserNode.cs" />
@@ -71,7 +71,7 @@
     <Compile Include="Elements\Page.cs" />
     <Compile Include="Tools\Builders\ModelBuilder.cs" />
     <Compile Include="Tools\Writers\HtmlWriter.cs" />
-    <Compile Include="Factoriers\AbstractFactory.cs" />
+    <Compile Include="Factories\AbstractFactory.cs" />
     <Compile Include="Types\IModelWriter.cs" />
     <Compile Include="Types\ITextComparator.cs" />
     <Compile Include="Types\IModelElement.cs" />

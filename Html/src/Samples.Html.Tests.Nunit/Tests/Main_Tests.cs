@@ -3,6 +3,8 @@
 // Main_Tests.cs
 
 using NUnit.Framework;
+using Samples.Html.Core.Types;
+using Samples.Html.Core.Utils;
 using Samples.Html.Nunit.Utils;
 
 // ========================================================================== []

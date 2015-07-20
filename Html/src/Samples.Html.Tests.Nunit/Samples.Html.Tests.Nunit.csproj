@@ -77,9 +77,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Samples.Html\Samples.Html.csproj">
-      <Project>{FD58FD5C-81DA-47D0-8FE0-6EA622D1BCBC}</Project>
-      <Name>Aspose.Html</Name>
+    <ProjectReference Include="..\Samples.Html.Core\Samples.Html.Core.csproj">
+      <Project>{fd58fd5c-81da-47d0-8fe0-6ea622d1bcbc}</Project>
+      <Name>Samples.Html.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

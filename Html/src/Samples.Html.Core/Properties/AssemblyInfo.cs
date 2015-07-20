@@ -1,5 +1,5 @@
 ﻿// Samples.Html (c) 2015 Roman Koshelev
-// Samples.Html
+// Samples.Html.Core
 // AssemblyInfo.cs
 
 using System.Reflection;
@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly : AssemblyTitle( "Samples.Html" )]
+[assembly : AssemblyTitle( "Samples.Html.Core" )]
 [assembly : AssemblyDescription( "" )]
 [assembly : AssemblyConfiguration( "" )]
 [assembly : AssemblyCompany( "" )]
-[assembly : AssemblyProduct( "Samples.Html" )]
+[assembly : AssemblyProduct( "Samples.Html.Core" )]
 [assembly : AssemblyCopyright( "Copyright ©  2015" )]
 [assembly : AssemblyTrademark( "" )]
 [assembly : AssemblyCulture( "" )]

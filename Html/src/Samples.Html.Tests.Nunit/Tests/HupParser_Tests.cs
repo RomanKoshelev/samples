@@ -3,6 +3,8 @@
 // HupParser_Tests.cs
 
 using NUnit.Framework;
+using Samples.Html.Core.Factories;
+using Samples.Html.Core.Types;
 
 // ========================================================================== []
 //
