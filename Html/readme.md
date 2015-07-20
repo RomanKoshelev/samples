@@ -14,7 +14,7 @@
 <img src="http://content.screencast.com/users/Romakosh/folders/Jing/media/22ad87ed-814a-49cf-b888-1345134552e7/2015-07-20_0532.png">
 
 ### How to Use
-- To build the [`Model`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Elements) we have to obtain some [`Tools`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Tools) using the [`Factory`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Factoriers):
+- To build the [`Model`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Elements) we have to obtain some [`Tools`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Tools) using the [`Factory`](https://github.com/RomanKoshelev/samples/tree/master/Html/src/Samples.Html.Core/Factories):
 ```c#
 	var factory = new HapFactory();
 	var parser  = factory.MakeHtmlParser();

@@ -5,7 +5,7 @@
 using Samples.Html.Core.Tools.Parsers.Concrete.LexicalAnalyzer;
 using Samples.Html.Core.Types;
 
-namespace Samples.Html.Core.Factoriers
+namespace Samples.Html.Core.Factories
 {
     public class LexFactory : AbstractFactory
     {

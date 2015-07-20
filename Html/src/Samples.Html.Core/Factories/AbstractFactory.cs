@@ -7,7 +7,7 @@ using Samples.Html.Core.Tools.Comparators;
 using Samples.Html.Core.Tools.Writers;
 using Samples.Html.Core.Types;
 
-namespace Samples.Html.Core.Factoriers
+namespace Samples.Html.Core.Factories
 {
     public abstract class AbstractFactory : IFactory
     {
