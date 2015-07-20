@@ -54,7 +54,7 @@ namespace Samples.Html.Core.Tools.Parsers.Concrete.HtmlAgilityPack
                 case HtmlNodeType.Comment :
                     return ParserNodeType.Comment;
             }
-            throw new AsposeHtmlException( "Unexpected NodeType: [{0}]", _node.NodeType );
+            throw new SampleHtmlException( "Unexpected NodeType: [{0}]", _node.NodeType );
         }
 
         protected override IEnumerable< IParserNode > doGetElements()

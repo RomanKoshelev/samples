@@ -23,7 +23,7 @@ namespace Samples.Html.Core.Tools.Builders
                 case ParserNodeType.Text :
                     return CreateTextElement( sourceNode );
             }
-            throw new AsposeHtmlException( "Unexpected ParserNodeType: [{0}]", sourceNode.Type );
+            throw new SampleHtmlException( "Unexpected ParserNodeType: [{0}]", sourceNode.Type );
         }
 
         private static IModelElement CreateTaggedElement( IParserNode sourceNode )
@@ -36,7 +36,7 @@ namespace Samples.Html.Core.Tools.Builders
                 case Constants.Tags.Td :
                     return new Td();
             }
-            throw new AsposeHtmlException( "Unexpected Tag: <{0}>", sourceNode.Tag );
+            throw new SampleHtmlException( "Unexpected Tag: <{0}>", sourceNode.Tag );
         }
 
         #endregion

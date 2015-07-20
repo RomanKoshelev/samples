@@ -66,7 +66,7 @@ namespace Samples.Html.Nunit.Tests
             try {
                 Builder.BuildModel( Parser, WrongInput );
             }
-            catch( AsposeHtmlException e ) {
+            catch( SampleHtmlException e ) {
                 catched = true;
                 Log( e.Message );
             }

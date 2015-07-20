@@ -56,7 +56,7 @@
     <Compile Include="Tools\Writers\BaseWriter.cs" />
     <Compile Include="Tools\Writers\StructWriter.cs" />
     <Compile Include="Tools\Writers\OutlineWriter.cs" />
-    <Compile Include="Utils\AsposeHtmlException.cs" />
+    <Compile Include="Utils\SampleHtmlException.cs" />
     <Compile Include="Utils\StringExtensions.cs" />
     <Compile Include="Elements\Text.cs" />
     <Compile Include="Elements\Td.cs" />
