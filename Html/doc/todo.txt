@@ -1,0 +1,60 @@
+=====================
+Todo list
+=====================
+
+Todo
+~~~~
+- all done
+
+Done
+~~~~
++ send to S.A.
+19/07/2015
++ tdd: Text_is_accessable
++ doc: text value
++ describe approach in descripton.txt
+  + goal: what it is aimed for
+  + plan: which steps were been planned to solve this task
+  + the architecture
+  + using: how to use
+  + developing: how to extend the functionality
++ declare Lex parsers
++ create styles Helpers.Parser
++ write Styles in outline
++ simplify tests -- split ine monolyte them to many special
++ OutlineWriter
++ tdd: must fail on unknown html-enteties
++ tdd: pass main test:
+  + create Comparator
++ create attributes
++ ref: pull Elements folder up
++ create root page
++ create interfaces
+  + IHtmlReader -- get string and .. (first test HtmlAgilityPack them finish this task description)
+  + IHtmlContent -- nested classes (pattern Compose)
+  + IHtmlWriter -- gets IHtmlContent and makes strting
++ tdd: add main test
+  + read html from disk to InString
+  + create HtmlContent from InString
+  + write HtmlContent to OutString
+  + write comparator tests: one for equal and other for different strings
+  + compare In- and Out- strings
++ add test: HtmlAgilityPack
++ add test projects
++ rename lib to HtmlContent
++ create solution
++ install HtmlAgilityPack
+16/07/2015
+
+Later
+~~~~~
+- Implement Regexp parser
+- Implement Lex parser
+- Finish
+
+Canceled
+~~~~~~~~
+x use genericAttribute<T> where T: Int, String, StyleSet
+x ref: remove Tag property from IHtmlElement -- HtmlWriter should know how to run with it
+
+[EOF]
