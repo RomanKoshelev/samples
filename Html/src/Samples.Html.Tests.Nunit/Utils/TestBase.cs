@@ -4,7 +4,6 @@
 
 using System;
 using System.IO;
-using Samples.Html.Types;
 
 namespace Samples.Html.Nunit.Utils
 {

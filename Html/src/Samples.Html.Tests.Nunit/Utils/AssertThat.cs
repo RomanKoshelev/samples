@@ -3,8 +3,6 @@
 // AssertThat.cs
 
 using NUnit.Framework;
-using Samples.Html.Elements;
-using Samples.Html.Types;
 
 namespace Samples.Html.Nunit.Utils
 {

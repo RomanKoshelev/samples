@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".doc", ".doc", "{7DD361F5-5
 		doc\todo.txt = doc\todo.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Html", "src\Samples.Html\Samples.Html.csproj", "{FD58FD5C-81DA-47D0-8FE0-6EA622D1BCBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Html.Core", "src\Samples.Html\Samples.Html.Core.csproj", "{FD58FD5C-81DA-47D0-8FE0-6EA622D1BCBC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Html.Tests.Nunit", "src\Samples.Html.Tests.Nunit\Samples.Html.Tests.Nunit.csproj", "{90AFB5A5-D4B3-4A94-AD04-3B3D5A528BFB}"
 EndProject

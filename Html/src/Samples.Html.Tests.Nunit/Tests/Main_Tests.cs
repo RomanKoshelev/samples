@@ -4,8 +4,6 @@
 
 using NUnit.Framework;
 using Samples.Html.Nunit.Utils;
-using Samples.Html.Types;
-using Samples.Html.Utils;
 
 // ========================================================================== []
 // 
